@@ -7,6 +7,10 @@
     font-family: sans-serif , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     ;
   }
+  #qestion{
+    color: #43a7d5;
+    border: solid;
+  }
   
   aside{
     max-width:700px;

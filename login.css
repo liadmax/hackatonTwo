@@ -11,7 +11,8 @@ body{
   font-family: sans-serif , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   ;
 }
-.login {
+.login
+ {
   width: 400px;
   margin: 16px auto;
   font-size: 16px;
@@ -93,7 +94,8 @@ body{
 .login input[type="submit"]:focus {
   border-color: #05a;
 }
-#innerHead{
+#innerHead,
+#createNew{
   color: #fff;
   box-sizing: border-box;
   display: block;
@@ -106,4 +108,12 @@ border-color: #17c;
   outline: 0;
   font-family: inherit;
   font-size: 0.95em;
+}
+#poem{
+  margin-right: 70%;
+  margin-top: 3px;
+  text-align: left;
+  border: solid #17c;
+  font-size: 8px;
+  color: #05a;
 }

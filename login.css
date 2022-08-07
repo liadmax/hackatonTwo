@@ -57,8 +57,13 @@ body{
   font-size: 0.95em;
 }
 
+
 .login input[type="userName"],
-.login input[type="password"] {
+.login input[type="password"],
+.login input[type="text"],
+.login input[type="email"]
+
+ {
   background: #fff;
   border-color: #bbb;
   color: #555;
@@ -66,7 +71,10 @@ body{
 
 /* Text fields' focus effect */
 .login input[type="userName"]:focus,
-.login input[type="password"]:focus {
+.login input[type="password"]:focus,
+.login input[type="text"]:focus,
+.login input[type="email"]:focus
+ {
   border-color: #888;
 }
 

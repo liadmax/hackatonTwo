@@ -4,4 +4,5 @@ function checkInfo(e){
 let password = document.getElementById('password').value;
 console.log(`this is the password ${password}`);
 console.log(`this is the username ${username}`);
-}
+};
+
